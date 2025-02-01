@@ -1,11 +1,4 @@
 import { Button } from "@/components/ui/button";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 
 const Index = () => {
   const systemImages = [
@@ -97,30 +90,23 @@ const Index = () => {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Conheça o Sistema</h2>
           
-          <div className="max-w-6xl mx-auto">
-            <Carousel className="relative">
-              <CarouselContent>
-                {systemImages.map((image, index) => (
-                  <CarouselItem key={index}>
-                    <div className="p-1">
-                      <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-                        <img 
-                          src={image.src} 
-                          alt={image.alt}
-                          className="w-full h-auto object-contain"
-                        />
-                        <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">{image.title}</h3>
-                          <p className="text-gray-600">{image.description}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious className="absolute left-0 top-1/2" />
-              <CarouselNext className="absolute right-0 top-1/2" />
-            </Carousel>
+          <div className="max-w-6xl mx-auto space-y-16">
+            {systemImages.map((image, index) => (
+              <div 
+                key={index}
+                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+              >
+                <img 
+                  src={image.src} 
+                  alt={image.alt}
+                  className="w-full h-auto object-contain"
+                />
+                <div className="p-6">
+                  <h3 className="text-2xl font-semibold mb-3">{image.title}</h3>
+                  <p className="text-gray-600 text-lg">{image.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
