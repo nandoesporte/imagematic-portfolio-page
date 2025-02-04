@@ -45,6 +45,12 @@ const Index = () => {
       description: "Interface detalhada para votação com seleção de dimensões, pontos fortes e desafios"
     },
     {
+      src: "/lovable-uploads/0aeceff5-e99a-404d-8a41-efc72069b9cb.png",
+      alt: "Sistema de Votação",
+      title: "Sistema de Votação",
+      description: "Interface para votação e seleção de opções por dimensão"
+    },
+    {
       src: "/lovable-uploads/a52f5746-631f-48d8-ac95-f7aaf9e532c7.png",
       alt: "Análise de Votos",
       title: "Análise de Votos",
