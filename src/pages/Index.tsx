@@ -27,22 +27,10 @@ const Index = () => {
       description: "Tela de confirmação após o envio bem-sucedido do formulário"
     },
     {
-      src: "/lovable-uploads/0aeceff5-e99a-404d-8a41-efc72069b9cb.png",
-      alt: "Sistema de Votação",
-      title: "Sistema de Votação",
-      description: "Interface para votação e seleção de opções por dimensão"
-    },
-    {
       src: "/lovable-uploads/22e44caf-7924-43fe-9364-0a5238e46260.png",
       alt: "Visualização de Respostas",
       title: "Respostas dos Questionários",
       description: "Visualização detalhada das respostas coletadas por grupo e dimensão"
-    },
-    {
-      src: "/lovable-uploads/9d416f3d-00ad-4d1e-a95d-63756218cbe3.png",
-      alt: "Sistema de Votação",
-      title: "Sistema de Votação",
-      description: "Interface detalhada para votação com seleção de dimensões, pontos fortes e desafios"
     },
     {
       src: "/lovable-uploads/0aeceff5-e99a-404d-8a41-efc72069b9cb.png",
