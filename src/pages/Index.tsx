@@ -3,75 +3,75 @@ import { Button } from "@/components/ui/button";
 const Index = () => {
   const systemImages = [
     {
-      src: "/lovable-uploads/edf0ee76-e3fa-457a-8a45-cb8455f4fc68.png",
+      src: "/lovable-uploads/88ead8b1-c1f5-423a-a50f-d62854b38da0.png",
       alt: "Dashboard Principal",
-      title: "Dashboard Principal",
-      description: "Visualização geral do sistema com métricas e indicadores importantes"
+      title: "Dashboard FIC",
+      description: "Painel principal com monitoramento em tempo real dos indicadores de felicidade da cooperativa"
     },
     {
-      src: "/lovable-uploads/7ee40870-7818-4317-8d45-874f71278d0f.png",
-      alt: "Formulário FIC",
-      title: "Formulário FIC",
-      description: "Interface para preenchimento do formulário de avaliação"
+      src: "/lovable-uploads/64131424-8d9d-4806-bfc1-f9154093e410.png",
+      alt: "Acesso ao Formulário",
+      title: "Acesso ao Formulário FIC",
+      description: "Interface de acesso ao formulário através do email cadastrado"
     },
     {
-      src: "/lovable-uploads/945bf7c4-91e6-4e7b-b56e-415e46fa07fa.png",
+      src: "/lovable-uploads/8225f17c-39f3-417a-8a98-3f76f068e868.png",
       alt: "Formulário Detalhado",
-      title: "Formulário Detalhado",
-      description: "Campos detalhados para coleta de informações"
+      title: "Formulário FIC Detalhado",
+      description: "Formulário completo com campos para avaliação de pontos fortes, desafios e oportunidades"
     },
     {
-      src: "/lovable-uploads/5b436df5-0e69-42da-9728-5eb9e9a30ed9.png",
-      alt: "Confirmação",
+      src: "/lovable-uploads/251d8a35-dabd-4b13-a25e-2a6b590e9456.png",
+      alt: "Confirmação de Envio",
       title: "Confirmação de Envio",
-      description: "Feedback positivo após submissão do formulário"
+      description: "Tela de confirmação após o envio bem-sucedido do formulário"
     },
     {
-      src: "/lovable-uploads/3699542e-d85f-47e0-ab46-a1db8908fb33.png",
-      alt: "Respostas",
-      title: "Visualização de Respostas",
-      description: "Análise das respostas coletadas"
-    },
-    {
-      src: "/lovable-uploads/6749441d-02ec-4eca-aee5-b3055820e125.png",
+      src: "/lovable-uploads/0aeceff5-e99a-404d-8a41-efc72069b9cb.png",
       alt: "Sistema de Votação",
       title: "Sistema de Votação",
-      description: "Interface para votação e seleção de opções"
+      description: "Interface para votação e seleção de opções por dimensão"
     },
     {
-      src: "/lovable-uploads/fe164b66-d334-4fd8-b60f-60734f938c84.png",
+      src: "/lovable-uploads/22e44caf-7924-43fe-9364-0a5238e46260.png",
+      alt: "Visualização de Respostas",
+      title: "Respostas dos Questionários",
+      description: "Visualização detalhada das respostas coletadas por grupo e dimensão"
+    },
+    {
+      src: "/lovable-uploads/a52f5746-631f-48d8-ac95-f7aaf9e532c7.png",
       alt: "Análise de Votos",
       title: "Análise de Votos",
-      description: "Métricas e resultados das votações"
+      description: "Dashboard com métricas e resultados das votações realizadas"
     },
     {
-      src: "/lovable-uploads/f29077fb-6daf-45cb-9698-15e18faee665.png",
+      src: "/lovable-uploads/fc8458ad-30ca-4b2a-ade9-1f3bae1bf191.png",
       alt: "Visualização de Votos",
       title: "Visualização de Votos",
-      description: "Detalhamento dos votos por categoria"
+      description: "Interface para visualização temporal dos votos e exportação de relatórios"
     },
     {
-      src: "/lovable-uploads/9366b127-60c8-4c64-852c-90cf03e9ea69.png",
-      alt: "Backup",
+      src: "/lovable-uploads/fe642a5c-e0a6-4678-bb54-bace9405cfb0.png",
+      alt: "Backup de Dados",
       title: "Backup de Dados",
-      description: "Sistema de backup e exportação"
+      description: "Sistema de backup e exportação de dados com gestão de arquivos"
     },
     {
-      src: "/lovable-uploads/bd0245e8-cba3-4bce-b3ff-ee1ffe3469e3.png",
+      src: "/lovable-uploads/64ef1f86-4182-4356-8133-8427bea1b725.png",
       alt: "Relatório IA",
-      title: "Relatório de IA",
-      description: "Análise inteligente dos dados"
+      title: "Relatório de Inteligência Artificial",
+      description: "Análise detalhada dos votos por dimensão usando inteligência artificial"
     },
     {
-      src: "/lovable-uploads/ab20df7f-950c-4f44-aa78-dc6b838e172d.png",
-      alt: "Usuários",
+      src: "/lovable-uploads/25330ed1-191b-4b36-977a-98453d8a4114.png",
+      alt: "Gestão de Usuários",
       title: "Gestão de Usuários",
-      description: "Controle e administração de usuários"
+      description: "Interface para gerenciamento de participantes e controle de acesso"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-primary to-primary/80 py-20 text-white">
         <div className="container mx-auto text-center px-4">
