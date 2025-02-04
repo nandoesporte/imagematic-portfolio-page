@@ -39,6 +39,12 @@ const Index = () => {
       description: "Visualização detalhada das respostas coletadas por grupo e dimensão"
     },
     {
+      src: "/lovable-uploads/945bf7c4-91e6-4e7b-b56e-415e46fa07fa.png",
+      alt: "Análise de Dimensões",
+      title: "Análise de Dimensões",
+      description: "Visualização e análise detalhada das dimensões avaliadas"
+    },
+    {
       src: "/lovable-uploads/a52f5746-631f-48d8-ac95-f7aaf9e532c7.png",
       alt: "Análise de Votos",
       title: "Análise de Votos",
